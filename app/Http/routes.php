@@ -20,6 +20,11 @@ Route::group(['middleware' => ['web'/*, 'auth'*/], 'prefix' => 'admin'], functio
     ]);
 });
 
+Route::get('create/words',[
+    'uses' => 'WordsController@index',
+    'as'  => 'create_words'
+]);
+
 
 Route::resource('csv', 'ExportCSV',['only' => ['index']]);
 Route::resource('vista','ExportCSV@vista');
