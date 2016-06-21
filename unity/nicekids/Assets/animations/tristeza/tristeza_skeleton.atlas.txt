@@ -1,0 +1,20 @@
+
+tristeza_skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tristeza_body
+  rotate: true
+  xy: 2, 2
+  size: 458, 492
+  orig: 458, 492
+  offset: 0, 0
+  index: -1
+tristeza_head
+  rotate: false
+  xy: 2, 462
+  size: 716, 532
+  orig: 716, 532
+  offset: 0, 0
+  index: -1

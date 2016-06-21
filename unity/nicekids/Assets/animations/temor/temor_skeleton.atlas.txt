@@ -1,0 +1,20 @@
+
+temor_skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+temor_body
+  rotate: true
+  xy: 2, 2
+  size: 332, 558
+  orig: 332, 558
+  offset: 0, 0
+  index: -1
+temor_head
+  rotate: true
+  xy: 562, 34
+  size: 300, 435
+  orig: 300, 435
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,48 @@
+
+alegria_skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alegria_body
+  rotate: false
+  xy: 2, 24
+  size: 245, 443
+  orig: 245, 443
+  offset: 0, 0
+  index: -1
+alegria_head
+  rotate: false
+  xy: 249, 175
+  size: 346, 292
+  orig: 346, 292
+  offset: 0, 0
+  index: -1
+alegria_left_arm
+  rotate: false
+  xy: 249, 2
+  size: 317, 171
+  orig: 317, 171
+  offset: 0, 0
+  index: -1
+alegria_left_leg
+  rotate: true
+  xy: 856, 265
+  size: 202, 164
+  orig: 202, 164
+  offset: 0, 0
+  index: -1
+alegria_right_arm
+  rotate: false
+  xy: 597, 188
+  size: 257, 279
+  orig: 257, 279
+  offset: 0, 0
+  index: -1
+alegria_right_leg
+  rotate: true
+  xy: 597, 121
+  size: 65, 243
+  orig: 65, 243
+  offset: 0, 0
+  index: -1

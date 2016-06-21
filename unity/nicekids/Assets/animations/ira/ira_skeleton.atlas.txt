@@ -1,0 +1,27 @@
+
+ira_skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ira_body
+  rotate: false
+  xy: 2, 163
+  size: 932, 853
+  orig: 932, 853
+  offset: 0, 0
+  index: -1
+ira_eyes
+  rotate: false
+  xy: 2, 2
+  size: 860, 159
+  orig: 860, 159
+  offset: 0, 0
+  index: -1
+ira_mouth
+  rotate: true
+  xy: 936, 353
+  size: 663, 75
+  orig: 663, 75
+  offset: 0, 0
+  index: -1
