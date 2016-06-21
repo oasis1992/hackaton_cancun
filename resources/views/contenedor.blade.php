@@ -33,18 +33,8 @@
         </div>
     </nav>
 </div>
-
-
-
-
     <body>
-
-
-
-
 @yield('content')
-
-@include('modal.confirmation')
 
 
       <!--Import jQuery before materialize.js-->
@@ -53,9 +43,10 @@
       <script>
      $(document).ready(function() {
     $('select').material_select();
-    $('.modal-trigger').leanModal();
   });
   </script>
+
+    @yield('js')
   
     </body>
 

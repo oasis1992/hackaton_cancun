@@ -6,9 +6,9 @@
       <table  class="striped">
         <thead>
           <tr>
-              <th data-field="id">Name</th>
-              <th data-field="name">Item Name</th>
-              <th data-field="price">Item Price</th>
+              <th data-field="id">#Num</th>
+              <th data-field="question">Question</th>
+              <th data-field="tags">Emotions</th>
               <th data-field="acciones">Acciones</th>
           </tr>
         </thead>
