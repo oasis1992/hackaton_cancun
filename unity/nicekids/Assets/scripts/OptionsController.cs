@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine.UI;
 using Parse;
 
@@ -64,7 +66,17 @@ public class OptionsController : MonoBehaviour
 		} else {
 			options [4].gameObject.SetActive (false);
 		}
+	}
 
+	public void showAvailableOptions2(IList<object> optionsList){
+		for (int i = 0; i < optionsList.Count; i++) {
+			IDictionary<string, object> dictionary = (IDictionary<string, object>)optionsList.ElementAt (i);
+			if ((bool)dictionary ["isGood"]) {
+				options [i].gameObject.SetActive (true);
+			} else {
+				options [i].gameObject.SetActive (false);
+			}
+		}
 	}
 
 }
