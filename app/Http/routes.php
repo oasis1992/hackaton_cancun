@@ -21,8 +21,15 @@ Route::group(['middleware' => ['web'/*, 'auth'*/], 'prefix' => 'admin'], functio
 });
 
 
-Route::resource('csv', 'ExportCSV',['only' => ['index','vista']]);
+Route::resource('csv', 'ExportCSV',['only' => ['index']]);
+Route::resource('vista','ExportCSV@vista');
+
 
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+/*Route::get('/', function () {
+    return view('welcome');
+});*/

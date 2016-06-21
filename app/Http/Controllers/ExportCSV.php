@@ -31,6 +31,6 @@ class exportCSV extends Controller
 
 	public function vista(){
 
-		return view('questions');
+		return view('create');
 	}
 }
